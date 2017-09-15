@@ -43,5 +43,9 @@ namespace WebApplication5.Models
         public string worker_authorization { get; set; }
         [JsonProperty("supervisorApprovalStatus")]
         public string supervisor_approval_status { get; set; }
+        [JsonProperty("createdDate")]
+        public DateTime created_date { get; set; }
+        [JsonProperty("updatedDate")]
+        public DateTime updated_date { get; set; }
     }
 }

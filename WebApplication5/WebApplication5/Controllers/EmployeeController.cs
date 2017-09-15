@@ -17,8 +17,9 @@ namespace WebApplication5.Controllers
         [System.Web.Http.HttpPost]
         public async Task<HttpResponseMessage> CreateAsync([FromBody] Employee emp)
         {
-
-           Document document = await EmployeeRepository<Employee>.CreateAsync(emp);
+            emp.created_date = DateTime.Now;
+            emp.updated_date = DateTime.Now;
+            Document document = await EmployeeRepository<Employee>.CreateAsync(emp);
             if (string.IsNullOrEmpty(document.Id) == false)
             {
                 Response response = new Response { status = true, employeeId = document.Id };
