@@ -22,7 +22,7 @@ namespace WebApplication5.Controllers
             Document document = await EmployeeRepository<Employee>.CreateAsync(emp);
             if (string.IsNullOrEmpty(document.Id) == false)
             {
-                Response response = new Response { status = true, employeeId = document.Id };
+                Response response = new Response { status = true, id = document.Id };
                 return Request.CreateResponse(HttpStatusCode.OK, response);
             }
             else

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Azure.Documents;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -9,5 +10,6 @@ namespace WebApplication5.Models
     {
        public bool status;
        public string errorMessage;
+       
     }
 }

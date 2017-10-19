@@ -10,10 +10,10 @@ using WebApplication5.Models;
 
 namespace WebApplication5.Classes
 {
-    public class EmployeeRepository<Employee> where Employee : class
+    public class VehicleDetailRepository<VehicleDteail> where VehicleDteail : class
     {
         private static readonly string DatabaseId = ConfigurationManager.AppSettings["database"];
-        private static readonly string CollectionId = ConfigurationManager.AppSettings["collection_employee"];
+        private static readonly string CollectionId = ConfigurationManager.AppSettings["collection_vehical"];
         private static DocumentClient client;
         public static void Initialize()
         {
@@ -64,8 +64,8 @@ namespace WebApplication5.Classes
 
             }
         }
-
-        public static async Task<Document> CreateAsync(Employee value)
+          // save vehical info
+        public static async Task<Document> CreateAsync(VehicleDetail value) 
         {
             try
             {
@@ -80,26 +80,40 @@ namespace WebApplication5.Classes
             }
         }
 
+        // delete specific vehical base on id
         public static Task DeleteAsyn(string id)
         {
             throw new NotImplementedException();
         }
-
-        public async Task<Employee> GetAsyn(string id)
+           // get vehical base on vehical id
+        public static async Task<Document> GetAsyn(string id)
         {
             try
             {
                 var uri = UriFactory.CreateDocumentUri(DatabaseId, CollectionId, id);
                 Document document = await client.ReadDocumentAsync(uri);
-                return (Employee)(dynamic)document;
+                Document response = new Document {Id = document.Id}; // return document's id use as id in response document
+
+                #region retrun response 
+                response.SetPropertyValue("status", true);
+                response.SetPropertyValue("vehicle", document);
+                response.SetPropertyValue("errorMessage", " "); 
+                #endregion
+                // return (VehicleDetail)(dynamic)document;
+                return response;
             }
-            catch (DocumentClientException e)
-            { throw e; }
+            catch (DocumentClientException e) // excute if record not found
+            {
+                Document response = new Document {  }; 
+                response.SetPropertyValue("status", false);
+                response.SetPropertyValue("vehicle", null);
+                response.SetPropertyValue("errorMessage", e.Message);
+                return response;
+            }
         }
 
 
-
-        public static Task<Document> UpdateAsyn(string id, Employee value)
+        public static Task<Document> UpdateAsyn(string id, VehicleDetail value)
         {
             throw new NotImplementedException();
         }

@@ -7,6 +7,6 @@ namespace WebApplication5.Models
 {
     public class Response : BaseResponse
     {
-      public  string employeeId;
+      public string id;
     }
 }

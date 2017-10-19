@@ -17,6 +17,7 @@ namespace WebApplication5
         {
             AreaRegistration.RegisterAllAreas();
             EmployeeRepository<Employee>.Initialize();
+            VehicleDetailRepository<VehicleDetail>.Initialize();
             GlobalConfiguration.Configure(WebApiConfig.Register);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);

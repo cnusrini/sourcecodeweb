@@ -231,3 +231,158 @@ F:\EmployeeTrackingDocBD\sourcecodeweb\WebApplication5\WebApplication5\obj\Debug
 F:\EmployeeTrackingDocBD\sourcecodeweb\WebApplication5\WebApplication5\obj\Debug\WebApplication5.csproj.CoreCompileInputs.cache
 F:\EmployeeTrackingDocBD\sourcecodeweb\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
 F:\EmployeeTrackingDocBD\sourcecodeweb\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\DocumentDB.Spatial.Sql.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\ApplicationInsights.config
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.exe
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.exe.config
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.rsp
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csi.exe
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csi.rsp
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.AppContext.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.exe
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.exe.config
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.rsp
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\VBCSCompiler.exe
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.dll.config
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.pdb
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Antlr3.Runtime.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Web.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.Client.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Newtonsoft.Json.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Net.Http.Formatting.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Helpers.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.WebHost.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Mvc.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Optimization.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Razor.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Razor.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebGrease.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.Client.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Newtonsoft.Json.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Net.Http.Formatting.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Helpers.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.WebHost.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Mvc.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Optimization.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Razor.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Razor.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Antlr3.Runtime.pdb
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Web.xml
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.csprojResolveAssemblyReference.cache
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
+C:\Users\Shaukat\Documents\Visual Studio 2015\Projects\UVSOFT\Client Projects\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.ServiceInterop.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\DocumentDB.Spatial.Sql.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\ApplicationInsights.config
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.exe
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.exe.config
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csc.rsp
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csi.exe
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\csi.rsp
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.AppContext.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.exe
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.exe.config
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\vbc.rsp
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\VBCSCompiler.exe
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.dll.config
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebApplication5.pdb
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Antlr3.Runtime.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Web.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.ApplicationInsights.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.Client.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Newtonsoft.Json.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Net.Http.Formatting.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Helpers.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.WebHost.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Mvc.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Optimization.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Razor.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Razor.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\WebGrease.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.Azure.Documents.Client.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Newtonsoft.Json.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Net.Http.Formatting.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Helpers.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Http.WebHost.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Mvc.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Optimization.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.Razor.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\System.Web.WebPages.Razor.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Antlr3.Runtime.pdb
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.ApplicationInsights.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\bin\Microsoft.AI.Web.xml
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.csprojResolveAssemblyReference.cache
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.csproj.CoreCompileInputs.cache
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.dll
+C:\Users\waqar\Desktop\sourcecodeweb-master\WebApplication5\WebApplication5\obj\Debug\WebApplication5.pdb
