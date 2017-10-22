@@ -11,18 +11,18 @@ using WebApplication5.Models;
 
 namespace WebApplication5.Controllers
 {
-    [RoutePrefix("api/vehicle")]
-    public class VehicleDetailController : ApiController
+    [RoutePrefix("api/client")]
+    public class ClientDetailController : ApiController
     {
 
         
             [Route("request/save")]
             [System.Web.Http.HttpPost]
-            public async Task<HttpResponseMessage> CreateAsync([FromBody] VehicleDetail vehical)
+            public async Task<HttpResponseMessage> CreateAsync([FromBody] ClientDetail client)
             {
             try
             {
-                Document document = await VehicleDetailRepository<VehicleDetail>.CreateAsync(vehical);
+                Document document = await ClientDetailRepository<ClientDetail>.CreateAsync(client);
                 if (string.IsNullOrEmpty(document.Id) == false)
                 {
                     Response response = new Response { status = true, id = document.Id };
@@ -41,14 +41,14 @@ namespace WebApplication5.Controllers
             }
         [Route("request/get/detail")]
         [System.Web.Http.HttpGet]
-        public HttpResponseMessage Get([FromUri] string lot_id = "" , string buyerId="")
+        public HttpResponseMessage Get([FromUri] string id)
         {
             try
             {
-                Document record = VehicleDetailRepository<VehicleDetail>.GetAsyn(lot_id , buyerId);
+                Document record = ClientDetailRepository<ClientDetail>.GetAsyn(id);
                 // if recevice record doesnt have id then its mean record not found
                 if (string.IsNullOrEmpty(record.Id) == false)
-                {   //  id not null then its mean record found
+                {   //  id not null then its means record found
 
                     return Request.CreateResponse(HttpStatusCode.OK, record);
                 }

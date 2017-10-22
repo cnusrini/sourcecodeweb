@@ -11,10 +11,10 @@ using WebApplication5.Models;
 
 namespace WebApplication5.Classes
 {
-    public class VehicleDetailRepository<VehicleDteail> where VehicleDteail : class
+    public class ClientDetailRepository<VehicleDteail> where VehicleDteail : class
     {
         private static readonly string DatabaseId = ConfigurationManager.AppSettings["database"];
-        private static readonly string CollectionId = ConfigurationManager.AppSettings["collection_vehical"];
+        private static readonly string CollectionId = ConfigurationManager.AppSettings["collection_client"];
         private static DocumentClient client;
         public static void Initialize()
         {
@@ -65,8 +65,8 @@ namespace WebApplication5.Classes
 
             }
         }
-          // save vehical info
-        public static async Task<Document> CreateAsync(VehicleDetail value) 
+          // save client info
+        public static async Task<Document> CreateAsync(ClientDetail value) 
         {
             try
             {
@@ -81,66 +81,54 @@ namespace WebApplication5.Classes
             }
         }
 
-        // delete specific vehical base on id
+        // delete specific client base on id
         public static Task DeleteAsyn(string id)
         {
             throw new NotImplementedException();
         }
-        // get vehical base on vehical id
-        public static Document GetAsyn(string LotId , string buyerId)
+        // get Client base on client id
+        public static Document GetAsyn(string id)
         {
             try
             {
                 Document response;
-                bool isVehicalFound = false;
-                VehicleDetail vehicle=null;
-                if (LotId !="")
-                {    // if Lot id not empty the excute  it
-                    
-                    vehicle = client.CreateDocumentQuery<VehicleDetail>(
-                        UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId)).Where(f => f.LotId == LotId).AsEnumerable().FirstOrDefault();
-                    if (vehicle != null)
+                bool isClientFound = false;
+                ClientDetail clientDetail=null;
+                if (id != "")
+                {    
+
+                    clientDetail = client.CreateDocumentQuery<ClientDetail>(
+                        UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId)).Where(f => f.clientId == id).AsEnumerable().FirstOrDefault();
+                    if (clientDetail != null)
                     {
-                        isVehicalFound = true;
+                        isClientFound = true;
                     }
                     else
                     {
-                        isVehicalFound = false;
+                        isClientFound = false;
                     }
                 }
-                else if(buyerId != "")
-                {  // if buyer id not empty then excute  it
-                    vehicle = client.CreateDocumentQuery<VehicleDetail>(
-                           UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId)).Where(f => f.BuyerID == buyerId).AsEnumerable().FirstOrDefault();
-                    if (vehicle != null)
-                    {
-                        isVehicalFound = true;
-                    }
-                    else
-                    {
-                        isVehicalFound = false;
-                    }
-                }
+                
                 else  
                 {
-                    isVehicalFound = false;
+                    isClientFound = false;
                 }
 
-              //  check the value of isVehicalFound  if it is true then return custom response document with found vehical else return the not found data response document
+              //  check the value of isClientFound  if it is true then return custom response document with found Client else return the not found data response document
                 #region
-                if (isVehicalFound)
+                if (isClientFound)
                 {
 
-                    response = new Document { Id = vehicle.id };
+                    response = new Document { Id = clientDetail.id };
                     response.SetPropertyValue("status", true);
-                    response.SetPropertyValue("vehicle", vehicle);
-                    response.SetPropertyValue("errorMessage", "not found");
+                    response.SetPropertyValue("client", clientDetail);
+                    response.SetPropertyValue("errorMessage", "");
                 }
                 else
                 {
                     response = new Document { };
                     response.SetPropertyValue("status", false);
-                    response.SetPropertyValue("vehicle", "{}");
+                    response.SetPropertyValue("client", "{}");
                     response.SetPropertyValue("errorMessage", "not found");
                 } 
                 #endregion
@@ -150,7 +138,7 @@ namespace WebApplication5.Classes
             {
                 Document response = new Document { };
                 response.SetPropertyValue("status", false);
-                response.SetPropertyValue("vehicle", "{ }");
+                response.SetPropertyValue("client", "{ }");
                 response.SetPropertyValue("errorMessage", e.Message);
                 return response;
             }

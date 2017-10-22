@@ -10,6 +10,7 @@ namespace WebApplication5.Models
     {
         
         public string id { get; set; }
+        public string LotId { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public int Year { get; set; }
