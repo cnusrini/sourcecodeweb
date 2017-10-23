@@ -39,13 +39,39 @@ namespace WebApplication5.Controllers
                 throw;
             }
             }
-        [Route("request/get/detail")]
+        [Route("request/get/detail/lot")]
         [System.Web.Http.HttpGet]
-        public HttpResponseMessage Get([FromUri] string lot_id = "" , string buyerId="")
+        public HttpResponseMessage GetVehicalBaseOnLotId([FromUri] string lot_id = "")
         {
             try
             {
-                Document record = VehicleDetailRepository<VehicleDetail>.GetAsyn(lot_id , buyerId);
+                Document record = VehicleDetailRepository<VehicleDetail>.GetVehicaleBasesOnLotNoAsyn(lot_id);
+                // if recevice record doesnt have id then its mean record not found
+                if (string.IsNullOrEmpty(record.Id) == false)
+                {   //  id not null then its mean record found
+
+                    return Request.CreateResponse(HttpStatusCode.OK, record);
+                }
+                else
+                { // id is null 
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, record);
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
+
+            }
+        }
+
+        [Route("request/get/detail/buyerId")]
+        [System.Web.Http.HttpGet]
+        public HttpResponseMessage GetVehicalBaseOnBuyerId([FromUri] string buyerId = "")
+        {
+            try
+            {
+                Document record = VehicleDetailRepository<VehicleDetail>.GetVehicalBaseOnBuyerIdAsyn(buyerId);
                 // if recevice record doesnt have id then its mean record not found
                 if (string.IsNullOrEmpty(record.Id) == false)
                 {   //  id not null then its mean record found

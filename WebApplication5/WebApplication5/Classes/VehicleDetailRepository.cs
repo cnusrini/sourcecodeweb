@@ -44,8 +44,6 @@ namespace WebApplication5.Classes
                 }
             }
         }
-
-
         private static async Task CreateDatabaseIfNotExistsAsync()
         {
             try
@@ -87,7 +85,7 @@ namespace WebApplication5.Classes
             throw new NotImplementedException();
         }
         // get vehical base on vehical id
-        public static Document GetAsyn(string LotId , string buyerId)
+        public static Document GetVehicaleBasesOnLotNoAsyn(string LotId)
         {
             try
             {
@@ -108,19 +106,7 @@ namespace WebApplication5.Classes
                         isVehicalFound = false;
                     }
                 }
-                else if(buyerId != "")
-                {  // if buyer id not empty then excute  it
-                    vehicle = client.CreateDocumentQuery<VehicleDetail>(
-                           UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId)).Where(f => f.BuyerID == buyerId).AsEnumerable().FirstOrDefault();
-                    if (vehicle != null)
-                    {
-                        isVehicalFound = true;
-                    }
-                    else
-                    {
-                        isVehicalFound = false;
-                    }
-                }
+              
                 else  
                 {
                     isVehicalFound = false;
@@ -150,7 +136,7 @@ namespace WebApplication5.Classes
             {
                 Document response = new Document { };
                 response.SetPropertyValue("status", false);
-                response.SetPropertyValue("vehicle", "{ }");
+                response.SetPropertyValue("vehicle", "{}");
                 response.SetPropertyValue("errorMessage", e.Message);
                 return response;
             }
@@ -158,9 +144,70 @@ namespace WebApplication5.Classes
         }// end GetAsyn()
 
 
+        //returned list of vehicle base on buyer id
+        public static Document GetVehicalBaseOnBuyerIdAsyn(string buyerId) {
+            try
+            {
+                Document response = null;
+                bool isVehicalFound = false;
+                
+              
+                if (buyerId != "")
+                {  // if buyer id not empty then excute  it
+                    var vehicle = client.CreateDocumentQuery<VehicleDetail>(
+                             UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId)).Where(f => f.BuyerID == buyerId).AsEnumerable().ToList();
+                    if (vehicle.Count>0)
+                    {
+                        response = new Document { Id = vehicle[0].id }; // we can give any id to document,so here i giving id to document of the first item of returned result
+                        response.SetPropertyValue("status", true);
+                        response.SetPropertyValue("vehicle", vehicle);
+                        response.SetPropertyValue("errorMessage", "");
+                    }
+                    else
+                    {
+                        isVehicalFound = true;
+                    }
+                }
+                else
+                {
+                    isVehicalFound = true;
+                }
+
+                // return the not found data response document
+                #region
+                if (isVehicalFound)   // if true  means no record found
+                
+                {
+                    response = new Document { };
+                    response.SetPropertyValue("status", false);
+                    response.SetPropertyValue("vehicle", "[]");
+                    response.SetPropertyValue("errorMessage", "not found");
+                }
+                #endregion
+                return response;
+            }
+            catch (DocumentClientException e)
+            {
+                Document response = new Document { };
+                response.SetPropertyValue("status", false);
+                response.SetPropertyValue("vehicle", "{}");
+                response.SetPropertyValue("errorMessage", e.Message);
+                return response;
+            }
+
+
+
+
+
+
+        }
+
+
         public static Task<Document> UpdateAsyn(string id, VehicleDetail value)
         {
             throw new NotImplementedException();
         }
+
+
     }
 }
