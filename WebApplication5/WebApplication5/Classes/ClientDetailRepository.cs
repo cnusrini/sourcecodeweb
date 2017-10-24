@@ -70,6 +70,8 @@ namespace WebApplication5.Classes
         {
             try
             {
+                value.CreatedDate = DateTime.Now;
+                value.UpdatedDate = DateTime.Now;
                 return  await client.CreateDocumentAsync(UriFactory.CreateDocumentCollectionUri(DatabaseId, CollectionId), value);
             }
             catch (DocumentClientException e) 

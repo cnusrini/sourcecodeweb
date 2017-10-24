@@ -13,5 +13,7 @@ namespace WebApplication5.Models
         public string lastName { get; set; }
         public int age { get; set; }
         public char sex { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }

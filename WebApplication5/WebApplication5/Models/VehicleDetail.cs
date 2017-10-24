@@ -21,5 +21,7 @@ namespace WebApplication5.Models
         public string IsPicked { get; set; }
         public string BuyerID { get; set; }
         public string Location { get; set; }
+        public DateTime CreatedDate { get; set; }
+        public DateTime UpdatedDate { get; set; }
     }
 }
